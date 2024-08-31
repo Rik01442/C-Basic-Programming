@@ -1,0 +1,401 @@
+﻿//1--->5 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=5){
+        printf("%d ", a);
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 1--------->10 number print (dry run)
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=10){
+        printf("%d ", a);
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 1---->100 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=100){
+        printf("%d ", a);
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 34--->89 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 34;
+    while(a<=89){
+        printf("%d ", a);
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 5-------------->1 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    while(a>=1){
+        printf("%d ", a);
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 10-------------->1 number print (dry run)
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 10;
+    while(a>=1){
+        printf("%d ", a);
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 100-------------->1 number print
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 100;
+    while(a>=1){
+        printf("%d ", a);
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 56-------------->23 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 56;
+    while(a>=23){
+        printf("%d ", a);
+        a--;
+    }
+    return 0;
+}*/
+
+
+//                 EVEN NUMBER 
+
+
+// 1--->5 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=5){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 1--------->10 number print (dry run)
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=10){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 1---->100 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=100){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 34--->89 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 34;
+    while(a<=89){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 5-------------->1 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    while(a>=1){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 10-------------->1 number print (dry run)
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 10;
+    while(a>=1){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 100-------------->1 number print
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 100;
+    while(a>=1){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 56-------------->23 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 56;
+    while(a>=23){
+        if(a%2==0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+//                 ODD NUMBERS 
+// 1--->5 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=5){
+        if(a%2!=0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 1--------->10 number print (dry run)
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    while(a<=10){
+        if(a%2!=0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+// 34-->89 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 34;
+    while(a<=89){
+        if(a%2!=0){
+        printf("%d ", a);
+    }
+        a++;
+    }
+    return 0;
+}*/
+
+
+
+
+// 5-------------->1 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    while(a>=1){
+        if(a%2!=0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 10-------------->1 number print (dry run)
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 10;
+    while(a>=1){
+        if(a%2!=0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+// 56-------------->23 number print 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 56;
+    while(a>=23){
+        if(a%2!=0){
+        printf("%d ", a);
+    }
+        a--;
+    }
+    return 0;
+}*/
+
+
+/*a :
+        1--->5 number print 
+
+
+b:
+        45--->34 number print 
+
+
+c :
+        3-->67 even number print 
+
+
+d :
+        56--->34 odd number*/
+        
+/*#include <stdio.h>
+
+
+int main() {
+    int a = 1;
+    int b = 45;
+    int c = 3;
+    int d = 56;
+
+
+    while (a <= 5) {
+        printf("%d ", a);
+        a++;
+    }
+    printf("\n");
+
+
+    while (b >= 34) {
+        printf("%d ", b);
+        b--;
+    }
+    printf("\n");
+
+
+    while (c <= 67) {
+        if (c % 2 == 0) {
+            printf("%d ", c);
+        }
+        c++;
+    }
+    printf("\n");
+
+
+    while (d >= 34) {
+        if (d % 2 != 0) {
+            printf("%d ", d);
+        }
+        d--;
+    }
+    printf("\n");
+
+
+    return 0;
+}*/

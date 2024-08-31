@@ -1,0 +1,55 @@
+/*five friends name 
+
+five country name 
+
+five city name 
+
+
+five food name 
+
+
+five fruit name 
+*/
+#include <stdio.h>
+
+int main()
+{
+    printf("Ramesh\n");
+    printf("devesh\n");
+    printf("Raman\n");
+    printf("Franklin\n");
+    printf("Micheal\n");
+    
+    printf("\n");
+
+    printf("India\n");
+    printf("Iran\n");
+    printf("Italy\n");
+    printf("Japan\n");
+    printf("North Korea\n");
+    
+    printf("\n");
+    
+    printf("Jaipur\n");
+    printf("Ajmer\n");
+    printf("Delhi\n");
+    printf("Noida\n");
+    printf("Mumbai\n");
+    
+    printf("\n");
+    
+    printf("Chilly Potato\n");
+    printf("Sweet potato\n");
+    printf("Sandwich\n");
+    printf("Paratha\n");
+    printf("Pizza\n");
+    
+    printf("\n");
+    
+    printf("Banana\n");
+    printf("Watermelon\n");
+    printf("Apple\n");
+    printf("Lichi\n");
+    printf("Orange\n");
+    return 0;
+}

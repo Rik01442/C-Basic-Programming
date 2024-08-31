@@ -1,0 +1,481 @@
+﻿/*Incrementing a variable using the pre-increment operator
+int a = 5;
+int b = ++a;
+printf(a); 
+printf(b);*/ 
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = ++a;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 2
+Incrementing a variable using the post-increment operator
+int a = 5;
+int b = a++;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = a++;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 3
+Decrementing a variable using the pre-decrement operator
+int a = 5;
+int b = --a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = --a;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 4
+Decrementing a variable using the post-decrement operator
+int a = 5;
+int b = a--;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = a--;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 5
+Combining pre-increment and post-increment operators
+int a = 5;
+int b = ++a + a++;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = ++a + a++;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 6
+Combining pre-decrement and post-decrement operators
+int a = 5;
+int b = --a + a--;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = --a + a--;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 7
+Complex increment operations
+int a = 5;
+a = a++ + ++a;
+printf(a); // What is the value of 'a'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = a++ + ++a;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    
+    return 0;
+}*/
+
+
+/*Question 10
+Combining increments and arithmetic operations
+int a = 5;
+int b = 3;
+int c = a++ + ++b + b++ + ++a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = 3;
+    int c = a++ + ++b + b++ + ++a;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    printf("%d", c);
+    
+    return 0;
+}*/
+
+
+/*Question 11
+Nested increment operations
+int a = 1;
+int b = 2;
+int c = a++ + (++a * ++b);
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    int b = 2;
+    int c = a++ + (++a * ++b);
+    printf("%d\n", a);
+    printf("%d\n", b);
+    printf("%d", c);
+    
+    return 0;
+}*/
+
+
+/*Question 12
+Multiple pre-increments
+int a = 1;
+int b = ++a + ++a + ++a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    int b = ++a + ++a + ++a;
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Question 13
+Multiple post-increments
+int a = 1;
+int b = a++ + a++ + a++;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    int b = a++ + a++ + a++;
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Question 14
+Combining pre-decrement and pre-increment
+int a = 5;
+int b = 3;
+int c = --a + ++b + a + b;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = 3;
+    int c = --a + ++b + a + b;
+    printf("%d\n", a);
+    printf("%d\n", b);
+    printf("%d\n", c);
+
+
+    return 0;
+}*/
+
+
+/*Question 15
+Complex decrement operations
+int a = 5;
+a = a-- - --a;
+printf(a); // What is the value of 'a'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = a-- - --a;
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Pre-increment and post-decrement in conditional statements
+int a = 5;
+if (++a > 5 && a-- < 7) {
+    a++;
+}
+printf(a); // What is the value of 'a'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = ++a > 5 && a-- < 7;
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Increment with logical operators
+int a = 1;
+int b = 1;
+if (++a == 2 && b++ == 1) {
+    a++;
+}
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 1;
+    int b = 1;
+    int c = ++a == 2 && b++ == 1;
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Nested increments and decrements
+int a = 5;
+int b = 3;
+int c = 0;
+
+
+if (++a > b++) {
+    c = a-- + b++;
+} else {
+    c = ++a - --b;
+}
+
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = 3;
+    int c = 0;
+    if (++a > b++) {
+    c = a-- + b++;
+} else {
+    c = ++a - --b;
+}
+
+
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Increment and decrement in a nested if-else
+int a = 5;
+int b = 3;
+int c = 0;
+
+
+if (++a > 6) {
+    if (--b > 2) {
+        c = a++ + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a-- + ++b;
+}
+
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = 3;
+    int c = 0;
+    if (++a > 6) {
+    if (--b > 2) {
+        c = a++ + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a-- + ++b;
+}
+
+
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+
+
+/*Multiple pre-increments in nested conditionals
+int a = 5;
+int b = 3;
+int c = 0;
+
+
+if (++a > 6) {
+    if (--b > 2) {
+        c = a-- + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a++ + ++b;
+}
+
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = 3;
+    int c = 0;
+    if (++a > 6) {
+    if (--b > 2) {
+        c = a-- + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a++ + ++b;
+}
+
+
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/
+
+
+/*Using pre-increment and post-decrement in nested conditionals
+int a = 5;
+int b = 3;
+int c = 0;
+
+
+if (++a > 6) {
+    if (--b > 2) {
+        c = a-- + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a++ + ++b;
+}
+
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?*/
+
+
+/*#include<stdio.h>
+int main(){
+    int a = 5;
+    int b = 3;
+    int c = 0;
+    if (++a > 6) {
+    if (--b > 2) {
+        c = a-- + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a++ + ++b;
+}
+
+
+
+
+    printf("%d\n", a);
+    printf("%d\n", b);
+
+
+    return 0;
+}*/

@@ -1,0 +1,148 @@
+//45+78+23+12
+
+/*#include <stdio.h>
+
+int main() {
+    int num1 = 45;
+    int num2 = 78;
+    int num3 = 23;
+    int num4 = 12;
+
+    int sum = num1 + num2 + num3 + num4;
+
+    printf("The sum is = %d", sum);
+
+    return 0;
+}*/
+
+
+//56*34+12/2-13
+
+/*#include <stdio.h>
+
+int main() {
+    int num1 = 56;
+    int num2 = 34;
+    int num3 = 12;
+    int num4 = 2;
+    int num5 = 13;
+
+    int t = num1 * num2 + num3 / num4 - num5;
+
+    printf("The Total is = %d", t);
+
+    return 0;
+}*/
+
+//1.2*6.7-4.5/2 
+
+/*#include <stdio.h>
+
+int main() {
+    float num1 = 1.2;
+    float num2 = 6.7;
+    float num3 = 4.5;
+    int num4 = 2;
+
+    float t = num1 * num2 - num3 / num4;
+
+    printf("The Total is = %f", t);
+
+    return 0;
+}*/
+
+//1.6*(12-2)/2+7.8-1.5 
+
+/*#include <stdio.h>
+
+int main() {
+    float num1 = 1.6;
+    int num2 = 12;
+    int num3 = 2;
+    int num4 = 2;
+    float num5 = 7.8;
+    float num6 = 1.5;
+
+    float t = num1 * (num2 - num3) / num4 + num5 - num6;
+
+    printf("The Total is = %f", t);
+
+    return 0;
+}*/
+
+//4.5*1.2-(82/2)-5.6 +1.234
+
+/*#include <stdio.h>
+
+int main() {
+    float num1 = 4.5;
+    float num2 = 1.2;
+    int num3 = 82;
+    int num4 = 2;
+    float num5 = 5.6;
+    float num6 = 1.234;
+
+    float t = num1 * num2 - (num3 / num4) - num5 + num6;
+
+    printf("The Total is = %f", t);
+
+    return 0;
+}*/
+
+//8*1+(4-2)/1+6
+
+/*#include <stdio.h>
+
+int main() {
+    int num1 = 8;
+    int num2 = 1;
+    int num3 = 4;
+    int num4 = 2;
+    int num5 = 1;
+    int num6 = 6;
+
+    int t = num1 * num2 + (num3 - num4) / num5 + num6;
+
+    printf("The Total is = %d", t);
+
+    return 0;
+}*/
+
+//3.4+1.2*(3.7-1.2)/2+6.8 
+
+/*#include <stdio.h>
+
+int main() {
+    float num1 = 3.4;
+    float num2 = 1.2;
+    float num3 = 3.7;
+    float num4 = 1.2;
+    int num5 = 2;
+    float num6 = 6.8;
+
+    float t = num1 + num2 * (num3 - num4) / num5 + num6;
+
+    printf("The Total is = %f", t);
+
+    return 0;
+}*/
+
+//8.9*1.67-(6.21-5.6)+7.8-34 +157
+
+/*#include <stdio.h>
+
+int main() {
+    float num1 = 8.9;
+    float num2 = 1.67;
+    float num3 = 6.21;
+    float num4 = 5.6;
+    float num5 = 7.8;
+    int num6 = 34;
+    int num7 = 157;
+
+    float t = num1 * num2 - (num3 - num4) + num5 - num6 + num7;
+
+    printf("The Total is = %f", t);
+
+    return 0;
+}*/

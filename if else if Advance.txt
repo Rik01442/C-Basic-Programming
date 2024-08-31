@@ -1,0 +1,119 @@
+/*user input number :
+	number greater than 10 
+		
+		input number :
+			number check divisible 6 
+			yes this number is divisible by 6 
+
+			otherwise :this number is not divisible by 6 
+		
+		number is not greater than 10*/ 
+
+/*#include <stdio.h>
+
+int main() {
+    int number;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    if (number > 10) {
+        if (number % 6 == 0) {
+            printf("Yes, this number is divisible by 6.\n");
+        } else {
+            printf("No, this number is not divisible by 6.\n");
+        }
+    } else {
+        printf("The number is not greater than 10.\n");
+    }
+
+    return 0;
+}*/
+
+
+/*user input character :
+e :
+	check number is even or odd 
+
+m :
+	make calendar 
+
+c :
+	calculator 
+
+w :
+	week days 
+
+g :
+	marksheet 
+			
+v :
+	voter id (input age :greater than 18 valid otherwise not valid for vote )*/ 
+	
+/*#include <stdio.h>
+
+int main() {
+    char choice;
+    
+    printf("Enter a character: ");
+    scanf(" %c", &choice);
+
+    if (choice == 'e') {
+        int number;
+        printf("Enter a number: ");
+        scanf("%d", &number);
+        if (number % 2 == 0) {
+            printf("The number %d is even.\n", number);
+        } else {
+            printf("The number %d is odd.\n", number);
+        }
+    } else if (choice == 'm') {
+        printf("Displaying a simple calendar:\n");
+        printf("1 Sun  2 Mon  3 Tue  4 Wed  5 Thu  6 Fri  7 Sat\n");
+        printf("8 Sun  9 Mon 10 Tue 11 Wed 12 Thu 13 Fri 14 Sat\n");
+        printf("15 Sun 16 Mon 17 Tue 18 Wed 19 Thu 20 Fri 21 Sat\n");
+        printf("22 Sun 23 Mon 24 Tue 25 Wed 26 Thu 27 Fri 28 Sat\n");
+        printf("29 Sun 30 Mon 31 Tue\n");
+    } else if (choice == 'c') {
+        int num1, num2;
+        char operator;
+        printf("Enter expression (a + b): ");
+        scanf("%d %c %d", &num1, &operator, &num2);
+        if (operator == '+') {
+            printf("Result: %d\n", num1 + num2);
+        } else {
+            printf("Unsupported operator.\n");
+        }
+    } else if (choice == 'w') {
+        printf("Weekdays: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday\n");
+    } else if (choice == 'g') {
+        int marks;
+        printf("Enter marks: ");
+        scanf("%d", &marks);
+        if (marks >= 90) {
+            printf("Grade: A\n");
+        } else if (marks >= 80) {
+            printf("Grade: B\n");
+        } else if (marks >= 70) {
+            printf("Grade: C\n");
+        } else if (marks >= 60) {
+            printf("Grade: D\n");
+        } else {
+            printf("Grade: F\n");
+        }
+    } else if (choice == 'v') {
+        int age;
+        printf("Enter age: ");
+        scanf("%d", &age);
+        if (age > 18) {
+            printf("Valid for vote.\n");
+        } else {
+            printf("Not valid for vote.\n");
+        }
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+

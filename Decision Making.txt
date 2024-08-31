@@ -1,0 +1,538 @@
+/*1 :one 
+	input is not valid*/ 
+
+/*#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the number: ");
+    scanf("%d", &number);
+    if(number==1){
+        printf("one");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}*/
+
+/*4 :four 
+	input is not valid*/
+
+/*#include<stdio.h>
+int main(){
+    int number;
+    printf("enter the number: ");
+    scanf("%d", &number);
+    if(number==4){
+        printf("four");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}*/
+
+/*a : apple 
+	input is not valid*/
+	
+/*#include<stdio.h>
+int main(){
+    char fruit;
+    printf("enter the fruit: ");
+    scanf("%c", &fruit);
+    if(fruit=='a'){
+        printf("apple");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}*/
+
+/*b :ball
+	input is not valid*/
+	
+/*#include<stdio.h>
+int main(){
+    char fruit;
+    printf("enter the fruit: ");
+    scanf("%c", &fruit);
+    if(fruit=='b'){
+        printf("ball");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}*/
+
+/*t :tiger
+	input is not valid*/
+	
+/*#include<stdio.h>
+int main(){
+    char animal;
+    printf("enter the animal: ");
+    scanf("%c", &animal);
+    if(animal=='t'){
+        printf("tiger");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}*/
+
+/*a :
+	two number input 
+	then addition 
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    char ch;
+
+    printf("Enter two numbers: ");
+    
+    if (scanf("%f %f", &num1, &num2) == 2) {
+        float sum = num1 + num2;
+        printf("The sum is: %f\n", sum);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+/*s :
+	two number input 
+	then substraction 
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    char ch;
+
+    printf("Enter two numbers: ");
+    
+    if (scanf("%f %f", &num1, &num2) == 2) {
+        float substract = num1 - num2;
+        printf("The minus result is: %f\n", substract);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+/*m :
+	two number input 
+	then multiplication 
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    char ch;
+
+    printf("Enter two numbers: ");
+    
+    if (scanf("%f %f", &num1, &num2) == 2) {
+        float multiply = num1 * num2;
+        printf("The multiply result is: %f\n", multiply);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+/*d :
+	two number input 
+	then division 
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    char ch;
+
+    printf("Enter two numbers: ");
+    
+    if (scanf("%f %f", &num1, &num2) == 2) {
+        float division = num1 / num2;
+        printf("The division result is: %f\n", division);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+/*o :
+	two number input 
+	then modular 
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    char ch;
+
+    printf("Enter two numbers: ");
+    
+    if (scanf("%d %d", &num1, &num2) == 2) {
+        int modular = num1 % num2;
+        printf("The modular result is: %d\n", modular);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+/*s :
+	two number input 
+	then swap without third variable  
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    char ch;
+
+    printf("Enter two numbers: ");
+    
+    if (scanf("%d %d", &num1, &num2) == 2) {
+        num1 = num1 + num2;
+        num2 = num1 - num2; 
+        num1 = num1 - num2;
+        printf("After swapping: num1 = %d, num2 = %d\n", num1, num2);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+/*s :
+	two number input 
+	then swap with third variable  
+input is not valid*/
+
+/*#include <stdio.h>
+
+int main() {
+    int num1, num2, num3;
+    char ch;
+
+ printf("Write a word");
+    scanf("%c", &ch);
+    
+    if (ch == 'a') {
+         printf("Enter two numbers: ");
+        scanf("%d %d", &num1,&num2);
+        
+        num3 = num1;
+        num1 = num2;
+        num2 = num3;
+        
+        printf("After swapping: num1 and num2 %d\n %d", num1, num2);
+    } else {
+        printf("Input is not valid.\n");
+    }
+
+    return 0;
+}*/
+
+//write a c program check a character is vowel and consonant ?
+
+/*#include <stdio.h>
+
+int main() {
+    char c;
+
+    printf("Enter a character: ");
+    scanf("%c", &c);
+
+    if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+        printf("%c is a vowel.\n", c);
+    }
+    else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+        printf("%c is a consonant.\n", c);
+    }
+    else {
+        printf("%c is not an alphabet character.\n", c);
+    }
+
+    return 0;
+}*/
+
+//write a c program input any single character when input q,w,e,r,t,y,u,i,o,p :print upper line otherwise input is not valid ? 
+
+/*#include <stdio.h>
+
+int main() {
+    char input;
+
+    printf("Enter a single character: ");
+    scanf("%c", &input);
+
+    if (input == 'q' || input == 'w' || input == 'e' || input == 'r' ||
+        input == 't' || input == 'y' || input == 'u' || input == 'i' ||
+        input == 'o' || input == 'p') {
+        printf("Upper line\n");
+    } else {
+        printf("Input is not valid\n");
+    }
+
+    return 0;
+}*/
+
+//write a c program input any single character when input a,s,d,f,g,,j,l :print mid line otherwise input is not valid ? 
+
+/*#include <stdio.h>
+
+int main() {
+    char input;
+
+    printf("Enter a single character: ");
+    scanf("%c", &input);
+
+    if (input == 'a' || input == 's' || input == 'd' || input == 'f' ||
+        input == 'g' || input == 'j' || input == 'l') {
+        printf("Mid Line\n");
+    } else {
+        printf("Input is not valid\n");
+    }
+
+    return 0;
+}*/
+
+//write a c program input any single character when input p,e,a,k :print peak word otherwise input is not valid ? 
+
+/*#include <stdio.h>
+
+int main() {
+    char input;
+
+    printf("Enter a single character: ");
+    scanf("%c", &input);
+
+    if (input == 'p' || input == 'e' || input == 'a' || input == 'k') {
+        printf("Peak\n");
+    } else {
+        printf("Input is not valid\n");
+    }
+
+    return 0;
+}*/
+
+//input any number and check a number is divisible by 6 and 4 both : 
+
+/*#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 6 == 0 && num % 4 == 0) {
+        printf("%d is divisible by both 6 and 4.\n", num);
+    } else {
+        printf("%d is not divisible by both 6 and 4.\n", num);
+    }
+
+    return 0;
+}*/
+
+//input any number and check a number is divisible by 6 and 4 anyone : 
+
+/*#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 6 == 0 || num % 4 == 0) {
+        printf("%d is divisible by either 6 or 4.\n", num);
+    } else {
+        printf("%d is not divisible by either 6 or 4.\n", num);
+    }
+
+    return 0;
+}*/
+
+//input any number and check a number is divisible by 5 and 11 both : 
+
+/*#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 5 == 0 && num % 11 == 0) {
+        printf("%d is divisible by both 5 and 10.\n", num);
+    } else {
+        printf("%d is not divisible by both 5 and 11.\n", num);
+    }
+
+    return 0;
+}*/
+
+/*user input :1---->10 
+	this number is present in between 1 to 10*/
+	
+/*#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num >= 1 && num <= 10) {
+        printf("The number %d is present between 1 and 10.\n", num);
+    } else {
+        printf("The number %d is not present between 1 and 10.\n", num);
+    }
+
+    return 0;
+}*/
+
+/*user input :11---->20
+	this number is present in between 11 to 20*/
+	
+/*#include<stdio.h>
+int main(){
+    int num;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num >= 11 && num <= 20) {
+        printf("The number %d is present in between 11 and 20. \n", num);
+    } else {
+        printf("The number %d is not present in between 11 and 20. \n", num);
+    }
+    
+    return 0;
+}*/
+
+/*input number 5 input 
+	greater 36 passing marks 
+		pass
+	otherwise fail*/
+	
+/*#include<stdio.h>
+int main(){
+    int marks1, marks2, marks3, marks4, marks5;
+    
+    printf("Enter Marks: ");
+    scanf("%d %d %d %d %d", &marks1, &marks2, &marks3, &marks4, &marks5);
+    
+    int total = marks1 + marks2 + marks3 + marks4 + marks5;
+    if (marks1 >= 36 && marks2 >= 36 && marks3 >= 36 && marks4 >= 36 && marks5 >= 36){
+        printf("This candidate is pass. %d \n", total);
+    }
+    else {
+        printf("This candidate is fail. %d \n", total);
+    }
+    
+    return 0;
+}*/
+
+/*input number 5 input 
+	find percentage
+	greater 60 abover passing marks 
+		pass
+	otherwise fail*/
+	
+/*#include<stdio.h>
+int main(){
+    int marks1, marks2, marks3, marks4, marks5;
+    
+    printf("Enter Marks: ");
+    scanf("%d %d %d %d %d", &marks1, &marks2, &marks3, &marks4, &marks5);
+    
+    int total = marks1 + marks2 + marks3 + marks4 + marks5;
+    float per = (total / 500.00) * 100;
+    if (total >= 60){
+        printf("The percentage is. %f \n", per);
+    }
+    else {
+        printf("This candidate is fail. %f \n", per);
+    }
+    
+    return 0;
+}*/
+
+/*input five number greater 40 
+	average calculate krey 
+
+	otherwise fail*/
+	
+/*#include<stdio.h>
+int main(){
+    int marks1, marks2, marks3, marks4, marks5;
+    
+    printf("Enter Marks: ");
+    scanf("%d %d %d %d %d", &marks1, &marks2, &marks3, &marks4, &marks5);
+    
+    int total = marks1 + marks2 + marks3 + marks4 + marks5;
+    int avg = (total / 5);
+    if (total >= 40){
+        printf("The average is. %d \n", avg);
+    }
+    else {
+        printf("This candidate is fail. %d \n", avg);
+    }
+    
+    return 0;
+    
+}*/
+
+/*-----------------------------------------------
+input five number greater 40 
+	average percentage krey 
+
+	otherwise fail*/
+
+/*#include<stdio.h>
+int main(){
+    int marks1, marks2, marks3, marks4, marks5;
+    
+    printf("Enter Marks: ");
+    scanf("%d %d %d %d %d", &marks1, &marks2, &marks3, &marks4, &marks5);
+    
+    int total = marks1 + marks2 + marks3 + marks4 + marks5;
+    int avg = (total / 5);
+    float per = (total / 500.00) * 100;
+    if (total >= 40){
+        printf("The average is. %d \n", avg);
+        printf("The percentage is. %f \n", per);
+    }
+    else {
+        printf("This wrong average is. %d \n", avg);
+    }
+    
+    return 0;
+    
+}*/
+
+
+
+

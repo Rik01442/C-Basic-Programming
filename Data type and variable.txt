@@ -1,0 +1,114 @@
+/*
+1)
+-56 
+
+2)
+r
+
+3)
+2.532
+
+4)
+34
+-2.34
+t 
+
+5)
+34+89
+
+6)23-5
+
+
+7)
+56*2 
+
+8)
+45/5 
+
+10)
+23+89+12+56
+*/
+
+#include <stdio.h>
+
+int main()
+{
+//1)-56 
+    int a = -56;
+    printf("%d", a);
+    
+    printf("\n");
+
+//2)r    
+    char b = 'r';
+    printf("%c", b);
+    
+    printf("\n");
+
+//3)2.532
+    float r = 2.532;
+    printf("%f", r);
+    
+    printf("\n");
+
+/*4)
+34
+-2.34
+t
+*/
+    int e = 34;
+    printf("%d\n", e);
+    
+    float j = -2.34;
+    printf("%f\n", j);
+    
+    char k = 't';
+    printf("%c\n", k);
+    
+    printf("\n");
+
+//5) 34+89
+
+    int l = 34;
+    int m = 89;
+    int g = l+m;
+    printf("%d", g);
+    
+    printf("\n");
+
+//6)23-5
+
+    int i = 23;
+    int v = 5;
+    int p = i-v;
+    printf("%d", p);
+    
+    printf("\n");
+
+//7) 56*2     
+    int o = 56;
+    int x = 2;
+    int t = i*v;
+    printf("%d", t);
+    
+    printf("\n");
+
+//8) 45/5     
+    int u = 45;
+    int q = 5;
+    int s = u / q;
+    printf("%d", s);
+    
+    printf("\n");
+
+//10) 23+89+12+56
+
+    int ab = 23;
+    int bc = 89;
+    int cd = 12;
+    int dc = 56;
+    int po = ab + bc + cd + dc;
+    printf("%d", po);
+    
+    return 0;
+}
